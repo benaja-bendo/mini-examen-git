@@ -5,3 +5,4 @@ devoir
 
 - benaja BENDO
 - Richard KOUDOU
+- Darren NDOUONGO
