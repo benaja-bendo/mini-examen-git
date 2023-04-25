@@ -4,3 +4,4 @@ devoir
 # member:
 
 - benaja BENDO
+- Richard KOUDOU
