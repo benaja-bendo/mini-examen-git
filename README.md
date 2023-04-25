@@ -6,4 +6,4 @@ devoir
 - benaja BENDO
 - Richard KOUDOU
 - Darren NDOUONGO
--Kawtar TMIMI
+- Kawtar TMIMI
