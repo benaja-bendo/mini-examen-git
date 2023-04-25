@@ -3,7 +3,8 @@ devoir
 
 # member:
 
-- benaja BENDO
+- Benaja BENDO
 - Richard KOUDOU
 - Darren NDOUONGO
 - Kawtar TMIMI
+- William ANDRÉ
