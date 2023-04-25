@@ -9,6 +9,9 @@ Technologie utilisé :
 -Js
 -Git
 
+## screenshot :
+
+![screenshot](assets/index_screen.png)
 
 # Membre :
 
