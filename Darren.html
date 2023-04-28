@@ -1,29 +1,39 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page De Darren</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>CodePen - Play/Pause Card</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="style.css">
+
 </head>
+<body class="center">
 
-<body>
+<div class="card" id="video-card">
+  <div class="video_center"id="video-wrap">
+  </div>
+  <div class="card--content">
+    <h2>Bienvenue chez moi</h2>
+    <p>Je vous propose de parcourir mon univers ou de tout simplement revenir au bercail</p>
 
-    <h1>Bienvenue</h1>
+    <div class="center2">
 
-    <p>Si vous aimez lire je peux vous proposez un petit lorem</p>
+    <button class="button" type="button" onclick="window.location='index.html'">
+      <img class="button-image" src="https://assets.codepen.io/4175254/mario.png" alt="" />
+      <span>J'explore l'univers</span>
+    </button>
+    <button class="button" type="button" onclick="window.location='index.html'">
+      <img class="button-image" src="https://assets.codepen.io/4175254/luigi.png" alt="" />
+      <span>Je suis pas marrant bye</span>
 
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus eos delectus iure, omnis consectetur at sunt deserunt adipisci iusto ratione unde voluptas, atque ipsa accusamus eum ex quo odit magni?</p>
+    </button>
+  </div>
 
-    <p> Sinon voilà une vidéo décrivant mon mindset : <a href="https://youtu.be/MihlCysVWNs"></a> </p>
+  </div>
 
-    <h2>Voilà c'est tout ce qu'il a a proposé</h2>
+</div>
+<!-- partial -->
+  <script src='https://player.vimeo.com/api/player.js'></script><script  src="./script.js"></script>
 
-   <button> <a href="index.html">Retour à l'accuiel</a></button>
-   
-   
-    
 </body>
-
 </html>

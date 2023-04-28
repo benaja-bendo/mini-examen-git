@@ -20,6 +20,7 @@ main {
     display: grid;
     place-items: center;
 }
+
 main section.section-1 {
     width: 80%;
     height: 90%;
@@ -350,3 +351,143 @@ main section.section-1 footer .user-content .user-details h4 a {
         row-gap: 25px;
     }
 }
+
+/* Css Darren */
+
+.center{
+    font-family: "IBM Plex Sans Roman", Times;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #000000ff;
+  }
+  
+
+.card {
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem;
+    transition: all 0.2s linear;
+    display: flex;
+    max-width: 400px;
+    height: fit-content;
+  }
+  
+  .card:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .card--content {
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  iframe {
+    border: 0;
+    width: 100%;
+  }
+  
+  #video-player {
+    mix-blend-mode: lighten;
+    margin-left: 25%;
+    
+  }
+
+  .video_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  @font-face {
+    font-family: "Seurat";
+    src: url("https://assets.codepen.io/4175254/FOT-Seurat+Pro+DB.otf") format("opentype");
+  }
+
+  .center2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 12px;
+    
+    
+  }
+  
+  .button {
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.5em;
+    position: relative;
+    border-radius: 50px;
+    padding: 16px 24px;
+    background-color: #f0f7fa;
+    box-shadow: inset 0 -4px 8px #87bfd8, 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    color: #0470e3;
+    transition: transform 0.4s cubic-bezier(0.55, 1, 0.15, 1);
+    will-change: transform;
+  }
+  .button:active {
+    transform: scale(0.92);
+  }
+  .button:active::after {
+    opacity: 1;
+  }
+  .button::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-image-source: url("https://assets.codepen.io/4175254/mario-button-borders.png");
+    border-image-slice: 50%;
+    border-image-width: 40px;
+    border-style: solid;
+    transform: scale(1.04, 1.08);
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.4s;
+    transition-timing-function: cubic-bezier(0.55, 1, 0.15, 1);
+    will-change: transform;
+  }
+  .button:focus-visible::after {
+    opacity: 1;
+    animation: pulsate 1s infinite;
+  }
+  
+  .button-image {
+    width: 1.75em;
+    height: 1.75em;
+    object-fit: contain;
+  }
+  
+  @keyframes pulsate {
+    0% {
+      transform: scale(1.04, 1.08);
+    }
+    50% {
+      transform: scale(1.08, 1.12);
+    }
+    100% {
+      transform: scale(1.04, 1.08);
+    }
+  }
+  
+    /* Css Darren */
