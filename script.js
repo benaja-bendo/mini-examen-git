@@ -1,3 +1,4 @@
+// Vimeo Player API:
 const vimeoSrc =
   "./assets/rinegan.gif?autoplay=0&loop=1&background=1&";
 
