@@ -2,39 +2,44 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Play/Pause Card</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <title>Darren's Page</title>
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Pacifico&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
 
 </head>
 
 <body class="center">
 
-<div class="card" id="video-card">
-  <div class="video_center"id="video-wrap">
+  <div class="card" id="video-card">
+    <div class="video_center"id="video-wrap">
   </div>
+
   <div class="card--content">
-    <h2 class="col">Bienvenue Chez Moi !</h2>
-    <p>Je vous propose de parcourir mon univers ou de tout simplement revenir au bercail</p>
+
+    <h2 class="purple-color">Bienvenue Chez Moi !</h2>
+    <p>Je vous propose de parcourir mon univers ou de tout simplement retourner au bercail ...</p>
 
     <div class="center2">
-
-    <button class="button" type="button" onclick="window.location='./views/Darren`s_world.html'">
+      <button class="button" type="button" onclick="window.location='./views/Darren`s_world.html'">
       <img class="button-image" src="/assets/gojo_happy.png" alt="" />
-      <span>J'explore l'univers</span>
-    </button>
-    <button class="button" type="button" onclick="window.location='index.html'">
+      <span class="shared-font">J'explore l'univers</span>
+      </button>
+
+      <button class="button" type="button" onclick="window.location='index.html'">
       <img class="button-image" src="/assets/disguted_tanjiro.png" alt="" />
-      <span>Je suis pas marrant bye</span>
+      <span class="shared-font">Je suis pas marrant bye</span>
+      </button>
+    </div>
 
-    </button>
   </div>
 
   </div>
 
-</div>
-<!-- partial -->
-  <script src='https://player.vimeo.com/api/player.js'></script><script  src="./script.js"></script>
+  <!-- Importing the player and our js document-->
+  <script src='https://player.vimeo.com/api/player.js'></script><script src="./script.js"></script>
 
 </body>
+
 </html>

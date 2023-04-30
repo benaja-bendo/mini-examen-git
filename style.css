@@ -352,175 +352,207 @@ main section.section-1 footer .user-content .user-details h4 a {
     }
 }
 
-/* Css Darren */
+/* Darren's CSS */
 
 /* First page */
 
+
+/* Centering the elements in the middle of the page */
 .center{
-    font-family: "IBM Plex Sans Roman", Times;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    min-height: 100vh;
-    margin: 0;
-    background-color: #000000ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #000000ff;
+}
+
+.center2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 40px; 
+}
+
+/* Adding a different color to the title */
+.purple-color {
+  color: #9370DB;
+  margin-bottom: 1rem;
   }
 
-  .col {
-  
-    color: #9370DB;
-    margin-bottom: 1rem;
-  }
-
+/* Styling the card */
 .card {
-    color: white;
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 12px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2.5rem;
-    transition: all 0.2s linear;
-    display: flex;
-    max-width: 400px;
-    height: fit-content;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem;
+  transition: all 0.2s linear;
+  display: flex;
+  max-width: 400px;
+  height: fit-content;
   }
   
-  /*
+  /* 
+
+  I wanted to add a hover effect to the card, but it didn't look good so I just removed it.
+  Left it here in case I changed my mind
+  
   .card:hover {
     background-color: #808080;
   }
+
   */
 
-  .card--content {
-    width: 100%;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 1rem;
-  }
-  
-  iframe {
-    border: 0;
-    width: 100%;
-  }
-  
-  #video-player {
-    mix-blend-mode: lighten;
-    margin-left: 25%;
-    
-  }
 
-  .video_center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  /* Styling the card content */
+.card--content {
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+  
+/* Iframe and video styling */
+iframe {
+  border: 0;
+  width: 100%;
+}
 
-  
-  h2 {
-    font-size: 2rem;
-  }
-  
-  @font-face {
-    font-family: "Seurat";
-    src: url("https://assets.codepen.io/4175254/FOT-Seurat+Pro+DB.otf") format("opentype");
-  }
+ #video-player {
+  mix-blend-mode: lighten;
+  margin-left: 25%;
+}
 
-  .center2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 40px;
-    
-    
-  }
-  
-  .button {
-    all: unset;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 0.5em;
-    position: relative;
-    border-radius: 50px;
-    margin-top: 2rem;
-    padding: 16px 24px;
-    background-color: #9370DB;
-    box-shadow: inset 0 -4px 8px #443cf4, 0 1px 3px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-    color: white;
-    transition: transform 0.4s cubic-bezier(0.55, 1, 0.15, 1);
-    will-change: transform;
-  }
-  .button:active {
-    transform: scale(0.92);
-  }
-  .button:active::after {
-    opacity: 1;
-  }
-  .button::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-image-source: url("https://assets.codepen.io/4175254/mario-button-borders.png");
-    border-image-slice: 50%;
-    border-image-width: 40px;
-    border-style: solid;
-    transform: scale(1.04, 1.08);
-    opacity: 0;
-    transition-property: opacity;
-    transition-duration: 0.4s;
-    transition-timing-function: cubic-bezier(0.55, 1, 0.15, 1);
-    will-change: transform;
-  }
-  .button:focus-visible::after {
-    opacity: 1;
-    animation: pulsate 1s infinite;
-  }
-  
-  .button-image{
-    width: 5em;
-    height: 5em;
-    object-fit: contain;
+.video_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  }
+/* adding a different size to the title*/
+h2 {
+  font-size: 2rem;
+  font-family: 'Pacifico', cursive;
+}
+
+p {
+  font-size: 1.2rem;
+  font-family: 'Playfair Display', serif;
+}
+.shared-font {
+  font-family: 'Playfair Display', serif;
+}
+
+/*@font-face {
+  font-family: "Seurat";
+  src: url("https://assets.codepen.io/4175254/FOT-Seurat+Pro+DB.otf") format("opentype");
+}
+*/
  
+/* styling the buttons and adding animations */
+.button {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.5em;
+  position: relative;
+  border-radius: 50px;
+  margin-top: 2rem;
+  padding: 16px 24px;
+  background-color: #9370DB;
+  box-shadow: inset 0 -4px 8px #443cf4, 0 1px 3px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  color: white;
+  transition: transform 0.4s cubic-bezier(0.55, 1, 0.15, 1);
+  will-change: transform;
+}
 
+.button:active {
+  transform: scale(0.92);
+}
+
+.button:active::after {
+  opacity: 1;
+}
+
+.button::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-image-source: url("https://assets.codepen.io/4175254/mario-button-borders.png");
+  border-image-slice: 50%;
+  border-image-width: 40px;
+  border-style: solid;
+  transform: scale(1.04, 1.08);
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.4s;
+  transition-timing-function: cubic-bezier(0.55, 1, 0.15, 1);
+  will-change: transform;
+}
+
+.button:focus-visible::after {
+  opacity: 1;
+  animation: pulsate 1s infinite;
+}
   
-  @keyframes pulsate {
-    0% {
-      transform: scale(1.04, 1.08);
-    }
-    50% {
-      transform: scale(1.08, 1.12);
-    }
-    100% {
-      transform: scale(1.04, 1.08);
-    }
-  }
+.button-image{
+  width: 5em;
+  height: 5em;
+  object-fit: contain;
+}
 
-  /*first page*/
+@keyframes pulsate {
+  0% {
+    transform: scale(1.04, 1.08);
+  }
+  50% {
+    transform: scale(1.08, 1.12);
+  }
+  100% {
+    transform: scale(1.04, 1.08);
+  }
+}
+
+/* end of the first page */
+
+
+
 
   /* Second page */
-  :root {
-    --duration: 3s;
-   
-  }
+
+/* Adding the black locked side of the second page in the transition */
+body {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  color: #ca5600;
+  background: black;
+  overflow: hidden;
+}
+
+/*  parametring the transition of the first div (first page) */
+
+:root {
+  --duration: 3s;
+}
   
-  .old-page {
-    position: absolute;
-    inset: 0;
-    background: url("/assets/space_room.jpg") center center no-repeat;
-    background-size: cover;
-    transform: scale(1.5);
-  }
-  .pointer-events-none {
-    pointer-events: none;
-  }
+.old-page {
+  position: absolute;
+  inset: 0;
+  background: url("/assets/space_room.jpg") center center no-repeat;
+  background-size: cover;
+  transform: scale(1.5);
+}
+
   @media (orientation: portrait) {
     .old-page {
       -webkit-mask: url("https://assets.codepen.io/907471/tail.svg?v1") center top no-repeat, url("https://assets.codepen.io/907471/space.svg?v42") center center no-repeat, url("https://assets.codepen.io/907471/ncc1701.svg") center center no-repeat;
@@ -645,14 +677,21 @@ main section.section-1 footer .user-content .user-details h4 a {
       transform: scale(1);
     }
   }
-  .new-page {
-    position: absolute;
+
+/* Makes the first page unclickable and enables the action of clicking elements on the second page  */
+.pointer-events-none {
+  pointer-events: none;
+}
+
+/* Doing the same with the second div (second page) */
+.new-page {
+  position: absolute;
   inset: 0;
-    background: url("/assets/lofi_in_space.jpg") center center no-repeat, #111;
-    background-size: cover;
-    -webkit-animation: show var(--duration) cubic-bezier(0.975, -0.005, 0, 1.02) forwards;
-            animation: show var(--duration) cubic-bezier(0.975, -0.005, 0, 1.02) forwards;
-  }
+  background: url("/assets/lofi_in_space.jpg") center center no-repeat, #111;
+  background-size: cover;
+  -webkit-animation: show var(--duration) cubic-bezier(0.975, -0.005, 0, 1.02) forwards;
+  animation: show var(--duration) cubic-bezier(0.975, -0.005, 0, 1.02) forwards;
+}
   
   @-webkit-keyframes show {
     from {
@@ -689,28 +728,162 @@ main section.section-1 footer .user-content .user-details h4 a {
       filter: saturate(100%);
     }
   }
-  body {
-    height: 100vh;
-    width: 100vw;
-    position: relative;
-    color: #ca5600;
-    background: black;
-    overflow: hidden;
-  }
-  
 
+.sliding-up {
+  margin-top: 15%;
+  justify-content: center;
+  animation: apparition 4s ease-in-out;
+  text-align: center;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  text-decoration: bold;
+}
 
+  @keyframes apparition {
 
-  @media screen and (max-height: 800px) {
-    :root {
-      font-size: 8px;
+    0% {
+      opacity: 0;
+      transform: translateY(100px);
     }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+ 
   }
 
+/* Styling the text on top of the page */
+
+h1 {
+  margin-top: 17%;
+}
+.beigeish_color {
+  color: #FFFADA;
+  font-family: 'Concert One', cursive;
+  font-size: 50px;
+}
+.fontsize {
+  font-size: 16px;
+  font-weight: 100;
+   
+}
 
 
-  /* Second page */
+/* Working on the Carrousel */
 
-
+/* Sizing it */
+#slideshow {
+	margin-bottom:3%;
+	padding-top: 50px;
+	height: 250px;
+	width: 100%;
   
-    /* Css Darren */
+}
+
+.entire-content {
+	margin: auto;
+	width: 190px;
+	perspective: 1000px;
+	position: relative;
+	padding-top: 20px;
+}
+
+/*  Adding the 3D Effect and parametring the rotation */
+.content-carrousel {
+	width: 100%;
+	position: absolute;
+	float: right;
+	animation: rotar 30s infinite linear;
+	transform-style: preserve-3d;
+}
+
+
+.content-carrousel:hover {
+	animation-play-state: paused;
+	cursor: pointer;
+}
+
+/* Styling the border of the image of the Carousel */
+.content-carrousel figure {
+	width: 100%;
+	height: 120px;
+	border: 1px solid #3b444b;
+	overflow: hidden;
+	position: absolute;
+}
+
+/* Indicating how each elements needs to move going from 0 to 360 degree to make them rotate in a circle */
+.content-carrousel figure:nth-child(1) {
+	transform: rotateY(0deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(2) {
+	transform: rotateY(40deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(3) {
+	transform: rotateY(80deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(4) {
+	transform: rotateY(120deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(5) {
+	transform: rotateY(160deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(6) {
+	transform: rotateY(200deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(7) {
+	transform: rotateY(240deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(8) {
+	transform: rotateY(280deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(9) {
+	transform: rotateY(320deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(10) {
+	transform: rotateY(360deg) translateZ(300px); 
+}
+
+/* Adding the shadow effect */
+.shadow {
+    position: absolute;
+    box-shadow: 0px 0px 20px 0px #000;
+    border-radius: 1px;
+}
+
+/* Adjusting the image size and rendering */
+.content-carrousel img {
+	image-rendering: auto;
+	transition: all 300ms;
+	width: 100%;
+	height: 100%;
+}
+
+/* Little hover effect */
+.content-carrousel img:hover {
+	transform: scale(1.2);
+	transition: all 300ms;
+}
+
+@keyframes rotar {
+	from {
+		transform: rotateY(0deg);
+	} to {
+		transform: rotateY(360deg);
+	}
+}
+
+ /* Styling the Buttons */
+
+.pink-redish_color{
+  background-color: #f54a6a;
+  box-shadow: inset 0 -4px 8px #671964, 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.second_shared-font {
+  font-family: 'Modak', cursive;
+  font-size: larger;
+  
+}
+
+@media screen and (max-height: 800px) {
+  :root {
+    font-size: 8px;
+  }
+}
+
+  /* End of Second page ( Darren's_World) */
+  
+/* Css Darren */

@@ -4,209 +4,62 @@
   <meta charset="UTF-8">
   <title>Darren's Secret Place</title>
   <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0,width=device-width" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="../style.css">
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Dosis:wght@800&family=Merriweather:wght@700&family=Modak&family=Pacifico&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
 </head>
-<body class="cont">
-<!-- partial:index.partial.html -->
 
-<div class="new-page">
-    <div class="haut">
+<body>
+<!--
+Separated two div that each represent a page the old div is the look seen before the transition and 
+new-page is the page seen after
+-->
 
-        <h1 class="blueish_color">Bien jouer pour être arriver jusque là !</h1>
-        
-        <p class="blueish_color fsize">Voici une liste de quelques trucs que j'aime bien ou qui me définissent (jeux auxquels je joue, musique que j'écoute, ce que je lis, etc.clickable btw) :</p>
+  <div class="new-page">
+    <div class="sliding-up">
 
-        <section id="slideshow">
-            <div class="entire-content">
-              <div class="content-carrousel">
-                <figure class="shadow"><a href="https://youtu.be/MihlCysVWNs"><img src="/assets/madara.gif" alt="Madara - Wake up to Reality"/></a></figure>
-                <figure class="shadow"><a href="https://www.juujikanorokuninchapters.com"><img src="/assets/rokunin.jpg" alt="Juujika No Rokunin"/></a></figure>
-                <figure class="shadow"><a href="https://kaas.am/jujutsu-kaisen-650f"><img src="/assets/itadori.gif" alt="Jujutsu Kaisen anime"/></a></figure>
-                <figure class="shadow"><a href="https://zoro.to/summer-time-rendering-17500?ref=search"><img src="/assets/ajiro.gif" alt="Summer Time Rendering"/></a></figure>
-                <figure class="shadow"><a href="https://www.leagueoflegends.com"><img src="/assets/Akali.png" alt="Akali"/></a></figure>
-                <figure class="shadow"><a href="https://youtu.be/aRz0QZc8TDE"><img src="/assets/vegeta.gif" alt="Vegeta training"/></a></figure>
-                <figure class="shadow"><a href="https://open.spotify.com/album/6XV76W17coHAKFdeyiGT08?si=nkjap2RkTd6kY-HEM0r9xg"><img src="/assets/hypochondriac.jpeg" alt="Brakence hypochondriac"/> </a></figure>
-                <figure class="shadow"><a href="https://docs.google.com/document/d/123jBzFuNMWoJa73tUrCXCIVQu80pnY__mlPzmJIp0D0/edit?usp=sharing"><img src="/assets/uk-drill.gif" alt="Home studio"/></a></figure>
-                <figure class="shadow"><a href="https://youtu.be/KJyIxx_bOKA?t=9"><img src="/assets/osu.png" alt="osu"/></a></figure>
+      <h1 class="beigeish_color">Bien jouer pour être arriver jusque là !</h1>
+      <p class="beigeish_color fontsize">Voici une liste d'élément que j'aime bien ou qui me définissent (jeux auxquels je joue, musique que j'écoute, ce que je lis, etc) :</p>
+      
+      <section id="slideshow">
+        <div class="entire-content">
+          <div class="content-carrousel">
+            <figure class="shadow"><a href="https://youtu.be/MihlCysVWNs"><img src="/assets/madara.gif" alt="Madara - Wake up to Reality"/></a></figure>
+            <figure class="shadow"><a href="https://www.juujikanorokuninchapters.com"><img src="/assets/rokunin.jpg" alt="Juujika No Rokunin"/></a></figure>
+            <figure class="shadow"><a href="https://kaas.am/jujutsu-kaisen-650f"><img src="/assets/itadori.gif" alt="Jujutsu Kaisen anime"/></a></figure>
+            <figure class="shadow"><a href="https://zoro.to/summer-time-rendering-17500?ref=search"><img src="/assets/ajiro.gif" alt="Summer Time Rendering"/></a></figure>
+            <figure class="shadow"><a href="https://www.leagueoflegends.com"><img src="/assets/Akali.png" alt="Akali"/></a></figure>
+            <figure class="shadow"><a href="https://youtu.be/aRz0QZc8TDE"><img src="/assets/vegeta.gif" alt="Vegeta training"/></a></figure>
+            <figure class="shadow"><a href="https://open.spotify.com/album/6XV76W17coHAKFdeyiGT08?si=nkjap2RkTd6kY-HEM0r9xg"><img src="/assets/hypochondriac.jpeg" alt="Brakence hypochondriac"/> </a></figure>
+            <figure class="shadow"><a href="https://docs.google.com/document/d/123jBzFuNMWoJa73tUrCXCIVQu80pnY__mlPzmJIp0D0/edit?usp=sharing"><img src="/assets/uk-drill.gif" alt="Home studio"/></a></figure>
+            <figure class="shadow"><a href="https://youtu.be/KJyIxx_bOKA?t=9"><img src="/assets/osu.png" alt="osu"/></a></figure>
                 
           </div>
         </div>
       </section>
         
-
-      
       <div class="center2">
 
-        <button class="button p-bg" type="button" onclick="window.location='https://chapmanganato.com/manga-kl987720'">
+        <button class="button pink-redish_color" type="button" onclick="window.location='https://chapmanganato.com/manga-kl987720'">
           <img class="button-image" src="/assets/rosen.png" alt="Rosen Garten Saga" />
-          <span>Petit Bonus</span>
+          <span class="second_shared-font">Petit Bonus</span>
         </button>
-        <button class="button p-bg" type="button" onclick="window.location='../index.html'">
+
+        <button class="button pink-redish_color" type="button" onclick="window.location='../index.html'">
           <img class="button-image" src="/assets/tanjiro_happy.png" alt="Happy Tanjiro" />
-          <span>I've seen enough get me out</span>
-    
+          <span class="second_shared-font">I've seen enough get me out</span>
         </button>
+
       </div>
     
-      </div>
+    </div>
       
-      </div>
-    
-      
-        
+  </div>
 
-        
-        
-        </div>
-</div>
-
-
-<div class="old-page pointer-events-none"></div>
-
-<!-- partial -->
-  
+  <div class="old-page pointer-events-none"></div>
 
 </body>
-
-<style>
-    .haut {
-        margin-top: 15%;
-        justify-content: center;
-        animation: apparition 4s ease-in-out;
-        text-align: center;
-        color: white;
-        font-family: 'Roboto', sans-serif;
-        text-decoration: bold;
-    }
-
-    @keyframes apparition {
-        0% {
-            opacity: 0;
-            transform: translateY(100px);
-        }
-        100% {
-            opacity: 1;
-            transform: translateY(0);
-        }
- 
-    }
-
-    #slideshow {
-	margin-bottom:3%;
-	padding-top: 50px;
-	height: 250px;
-	width: 100%;
-  
-}
-
-.entire-content {
-	margin: auto;
-	width: 190px;
-	perspective: 1000px;
-	position: relative;
-	padding-top: 20px;
-}
-
-.content-carrousel {
-	width: 100%;
-	position: absolute;
-	float: right;
-	animation: rotar 30s infinite linear;
-	transform-style: preserve-3d;
-}
-
-.content-carrousel:hover {
-	animation-play-state: paused;
-	cursor: pointer;
-}
-
-.content-carrousel figure {
-	width: 100%;
-	height: 120px;
-	border: 1px solid #3b444b;
-	overflow: hidden;
-	position: absolute;
-}
-
-.content-carrousel figure:nth-child(1) {
-	transform: rotateY(0deg) translateZ(300px); 
-} .content-carrousel figure:nth-child(2) {
-	transform: rotateY(40deg) translateZ(300px); 
-} .content-carrousel figure:nth-child(3) {
-	transform: rotateY(80deg) translateZ(300px); 
-} .content-carrousel figure:nth-child(4) {
-	transform: rotateY(120deg) translateZ(300px); 
-} .content-carrousel figure:nth-child(5) {
-	transform: rotateY(160deg) translateZ(300px); 
-} .content-carrousel figure:nth-child(6) {
-	transform: rotateY(200deg) translateZ(300px); 
-} .content-carrousel figure:nth-child(7) {
-	transform: rotateY(240deg) translateZ(300px); 
-} .content-carrousel figure:nth-child(8) {
-	transform: rotateY(280deg) translateZ(300px); 
-} .content-carrousel figure:nth-child(9) {
-	transform: rotateY(320deg) translateZ(300px); 
-} .content-carrousel figure:nth-child(10) {
-	transform: rotateY(360deg) translateZ(300px); 
-}
-
-.shadow {
-    position: absolute;
-    box-shadow: 0px 0px 20px 0px #000;
-    border-radius: 1px;
-}
-
-.content-carrousel img {
-	image-rendering: auto;
-	transition: all 300ms;
-	width: 100%;
-	height: 100%;
-}
-
-.content-carrousel img:hover {
-	transform: scale(1.2);
-	transition: all 300ms;
-}
-
-@keyframes rotar {
-	from {
-		transform: rotateY(0deg);
-	} to {
-		transform: rotateY(360deg);
-	}
-}
-
- /* Button */
-
- .p-bg {
-  background-color: #f54a6a;
-  box-shadow: inset 0 -4px 8px #671964, 0 1px 3px rgba(0, 0, 0, 0.2);
-}
-
-.blueish_color {
-    color: #d2d5fe;
-    font-size: 38px;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-}
-.fsize {
-    font-size: 16px;
-    font-weight: 100;
-   
-}
-
-h1 {
-    margin-top: 17%;
-}
- 
-  
-
-
-
-</style>
-
 </html>
 
 
