@@ -1,29 +1,45 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page De Darren</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Darren's Page</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Pacifico&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+
 </head>
 
-<body>
+<body class="center">
 
-    <h1>Bienvenue</h1>
+  <div class="card" id="video-card">
+    <div class="video_center"id="video-wrap">
+  </div>
 
-    <p>Si vous aimez lire je peux vous proposez un petit lorem</p>
+  <div class="card--content">
 
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus eos delectus iure, omnis consectetur at sunt deserunt adipisci iusto ratione unde voluptas, atque ipsa accusamus eum ex quo odit magni?</p>
+    <h2 class="purple-color">Bienvenue Chez Moi !</h2>
+    <p>Je vous propose de parcourir mon univers ou de tout simplement retourner au bercail ...</p>
 
-    <p> Sinon voilà une vidéo décrivant mon mindset : <a href="https://youtu.be/MihlCysVWNs"></a> </p>
+    <div class="center2">
+      <button class="button" type="button" onclick="window.location='./views/Darren`s_world.html'">
+      <img class="button-image" src="/assets/gojo_happy.png" alt="" />
+      <span class="shared-font">J'explore l'univers</span>
+      </button>
 
-    <h2>Voilà c'est tout ce qu'il a a proposé</h2>
+      <button class="button" type="button" onclick="window.location='index.html'">
+      <img class="button-image" src="/assets/disguted_tanjiro.png" alt="" />
+      <span class="shared-font">Je suis pas marrant bye</span>
+      </button>
+    </div>
 
-   <button> <a href="index.html">Retour à l'accuiel</a></button>
-   
-   
-    
+  </div>
+
+  </div>
+
+  <!-- Importing the player and our js document-->
+  <script src='https://player.vimeo.com/api/player.js'></script><script src="./script.js"></script>
+
 </body>
 
 </html>
