@@ -21,3 +21,4 @@ card.addEventListener("mouseenter", (e) => {
 card.addEventListener("mouseleave", (e) => {
   player.pause();
 });
+

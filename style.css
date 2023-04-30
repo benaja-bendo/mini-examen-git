@@ -507,8 +507,8 @@ main section.section-1 footer .user-content .user-details h4 a {
 
   /* Second page */
   :root {
-    --duration: 2.8s;
-    --loop: 0;
+    --duration: 3s;
+   
   }
   
   .old-page {
@@ -517,6 +517,9 @@ main section.section-1 footer .user-content .user-details h4 a {
     background: url("/assets/space_room.jpg") center center no-repeat;
     background-size: cover;
     transform: scale(1.5);
+  }
+  .pointer-events-none {
+    pointer-events: none;
   }
   @media (orientation: portrait) {
     .old-page {
@@ -644,7 +647,7 @@ main section.section-1 footer .user-content .user-details h4 a {
   }
   .new-page {
     position: absolute;
-    inset: 0;
+  inset: 0;
     background: url("/assets/lofi_in_space.jpg") center center no-repeat, #111;
     background-size: cover;
     -webkit-animation: show var(--duration) cubic-bezier(0.975, -0.005, 0, 1.02) forwards;
@@ -695,10 +698,9 @@ main section.section-1 footer .user-content .user-details h4 a {
     overflow: hidden;
   }
   
-  .labs-follow-me {
-    transform: scale(0.8) !important;
-  }
-  
+
+
+
   @media screen and (max-height: 800px) {
     :root {
       font-size: 8px;
@@ -706,6 +708,9 @@ main section.section-1 footer .user-content .user-details h4 a {
   }
 
 
+
   /* Second page */
+
+
   
     /* Css Darren */

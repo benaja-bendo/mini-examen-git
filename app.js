@@ -4,10 +4,3 @@ const nav = document.getElementsByTagName("nav");
 navEl.addEventListener("click", () => {
     nav[1].classList.toggle("active");
 });
-
-
-/* Js Darren */
-
-
-
-/* Js Darren */
