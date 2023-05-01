@@ -548,7 +548,7 @@ body {
 .old-page {
   position: absolute;
   inset: 0;
-  background: url("/assets/space_room.jpg") center center no-repeat;
+  background: url("./assets/space_room.jpg") center center no-repeat;
   background-size: cover;
   transform: scale(1.5);
 }
@@ -687,7 +687,7 @@ body {
 .new-page {
   position: absolute;
   inset: 0;
-  background: url("/assets/lofi_in_space.jpg") center center no-repeat, #111;
+  background: url("./assets/lofi_in_space.jpg") center center no-repeat, #111;
   background-size: cover;
   -webkit-animation: show var(--duration) cubic-bezier(0.975, -0.005, 0, 1.02) forwards;
   animation: show var(--duration) cubic-bezier(0.975, -0.005, 0, 1.02) forwards;
